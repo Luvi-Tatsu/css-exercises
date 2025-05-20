@@ -55,7 +55,15 @@ html {
 }
 
 .header{grid-area: 1/1/2/3;}
-.sidebar{grid-area: 2/1/4/2}
-.nav{grid-area: 2/2/2/2;}
-.article{grid-area: 3/2/4/3}
+.sidebar{grid-area: 2/1/4/2} 
+.nav{grid-area: 2/2/2/2;} /*optional*/
+.article{grid-area: 3/2/4/3} /*optional*/
 .footer{grid-area: 4/1/4/3;}
+ 
+/* short cut
+.header {
+  grid-column: 1 / 3;}
+.sidebar {
+  grid-row: 2 / 4;}
+.footer {
+  grid-column: 1 / 3;} */
